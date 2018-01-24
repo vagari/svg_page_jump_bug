@@ -1,0 +1,38 @@
+
+footer .social {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
+footer .social li {
+	display: inline-block;
+}
+
+object[type="image/svg+xml"] {
+	height: auto;
+	width: 100%;
+}
+
+/* Social Icons */
+a.svg {
+	position: relative;
+	display: inline-block;
+
+	outline: none;
+	border: 0;
+	text-decoration: none;
+}
+
+object.icon-social {
+	margin: auto 5px;
+}
+
+a.svg, object.icon-social {
+	width: 24px;
+}
+
+a.svg img {
+	width: 100%;
+}
