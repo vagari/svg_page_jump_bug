@@ -1,0 +1,33 @@
+svg + svg .use-home, 
+svg + svg .use-contact {
+	fill: #8c96a2;
+}
+
+svg + svg:hover .use-home {
+	fill: #eddebd;
+}
+
+svg + svg:hover .use-contact {
+	fill: #f33;
+}
+
+svg+svg .use-home,
+svg+svg .use-contact { 
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.svg-icon path {
+	fill: inherit;
+}
+
+#icon-home, #icon-contact  {
+	display: none;
+}
+
+#icon-home:target, #icon-contact:target {
+	display: inline-block;
+}
+
