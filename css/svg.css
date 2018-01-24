@@ -1,10 +1,10 @@
 svg + svg .use-home, 
 svg + svg .use-contact {
-	fill: #8c96a2;
+	fill: #333;
 }
 
 svg + svg:hover .use-home {
-	fill: #eddebd;
+	fill: #3f3;
 }
 
 svg + svg:hover .use-contact {
